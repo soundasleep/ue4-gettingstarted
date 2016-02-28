@@ -8,4 +8,6 @@ Saved
 *.suo
 *.xcodeproj
 *.xcworkspace
-Content/StarterContent
+Content/Shared/
+Content/StarterContent/
+vendor/

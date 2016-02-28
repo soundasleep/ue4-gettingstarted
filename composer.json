@@ -1,0 +1,19 @@
+{
+  "name": "soundasleep/ue4-getting-started",
+  "description": "Testing out Unreal Engine 4 and Composer integration",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/soundasleep/installers"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/soundasleep/ue4-starter-content"
+    }
+  ],
+  "require": {
+    "composer/installers": "dev-master",
+    "soundasleep/ue4-starter-content": "dev-master"
+  },
+  "minimum-stability": "dev"
+}

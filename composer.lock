@@ -1,0 +1,147 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "c1cc0a6ee8b0d6a956b86403072d9657",
+    "content-hash": "b1ed4fd2600b658048bdc32ebb290dab",
+    "packages": [
+        {
+            "name": "composer/installers",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soundasleep/installers.git",
+                "reference": "fd172164feca25df34b42f9c097144d9a5aaf5e6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soundasleep/installers/zipball/fd172164feca25df34b42f9c097144d9a5aaf5e6",
+                "reference": "fd172164feca25df34b42f9c097144d9a5aaf5e6",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Composer\\Installers\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "http://composer.github.com/installers/",
+            "keywords": [
+                "AGL",
+                "Aimeos",
+                "AnnotateCms",
+                "Bitrix",
+                "CakePHP",
+                "Chef",
+                "CodeIgniter",
+                "Craft",
+                "Croogo",
+                "DokuWiki",
+                "Dolibarr",
+                "Drupal",
+                "Elgg",
+                "FuelPHP",
+                "Grav",
+                "Hurad",
+                "Joomla",
+                "Kohana",
+                "Laravel",
+                "Lithium",
+                "MODULEWork",
+                "MODX Evo",
+                "Magento",
+                "Mako",
+                "MediaWiki",
+                "Moodle",
+                "OXID",
+                "PPI",
+                "Piwik",
+                "Puppet",
+                "Roundcube",
+                "SMF",
+                "SilverStripe",
+                "TYPO3",
+                "Thelia",
+                "WolfCMS",
+                "WordPress",
+                "Zend",
+                "Zikula",
+                "concrete5",
+                "installer",
+                "phpBB",
+                "shopware",
+                "symfony"
+            ],
+            "support": {
+                "source": "https://github.com/soundasleep/installers/tree/master"
+            },
+            "time": "2016-02-28 01:48:24"
+        },
+        {
+            "name": "soundasleep/ue4-starter-content",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soundasleep/ue4-starter-content.git",
+                "reference": "1193554d3ec02812311ccbba8e02403c316dbebd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soundasleep/ue4-starter-content/zipball/1193554d3ec02812311ccbba8e02403c316dbebd",
+                "reference": "1193554d3ec02812311ccbba8e02403c316dbebd",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "dev-master"
+            },
+            "type": "ue4-content",
+            "description": "Unreal Engine 4 starter content",
+            "support": {
+                "source": "https://github.com/soundasleep/ue4-starter-content/tree/master",
+                "issues": "https://github.com/soundasleep/ue4-starter-content/issues"
+            },
+            "time": "2016-02-28 01:53:13"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "composer/installers": 20,
+        "soundasleep/ue4-starter-content": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
