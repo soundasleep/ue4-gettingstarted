@@ -11,7 +11,8 @@ You'll need to use `composer` to download missing assets into `Content/Shared/`:
 composer
 ```
 
-It might take some time to download things, though. Just `StarterContent` alone includes ~620 MB of content.
+It might take some time to download things, though.
+Just [StarterContent](https://github.com/soundasleep/ue4-starter-content) alone includes ~620 MB of content.
 
 ## License
 
