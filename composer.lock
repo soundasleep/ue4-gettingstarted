@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c1cc0a6ee8b0d6a956b86403072d9657",
-    "content-hash": "b1ed4fd2600b658048bdc32ebb290dab",
+    "hash": "315cb2a1dcaf6af643df9fbc56295af7",
+    "content-hash": "057b33804ff173f4c6757ed80c9327e9",
     "packages": [
         {
             "name": "composer/installers",
@@ -108,17 +108,17 @@
             "time": "2016-02-28 01:48:24"
         },
         {
-            "name": "soundasleep/ue4-starter-content",
+            "name": "soundasleep/ue4-starter-architecture",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/soundasleep/ue4-starter-content.git",
-                "reference": "1193554d3ec02812311ccbba8e02403c316dbebd"
+                "url": "https://github.com/soundasleep/ue4-starter-architecture.git",
+                "reference": "a8fda37b50df6166d04526558237d6f2ecc71baa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/soundasleep/ue4-starter-content/zipball/1193554d3ec02812311ccbba8e02403c316dbebd",
-                "reference": "1193554d3ec02812311ccbba8e02403c316dbebd",
+                "url": "https://api.github.com/repos/soundasleep/ue4-starter-architecture/zipball/a8fda37b50df6166d04526558237d6f2ecc71baa",
+                "reference": "a8fda37b50df6166d04526558237d6f2ecc71baa",
                 "shasum": ""
             },
             "require": {
@@ -127,10 +127,426 @@
             "type": "ue4-content",
             "description": "Unreal Engine 4 starter content",
             "support": {
+                "source": "https://github.com/soundasleep/ue4-starter-architecture/tree/master",
+                "issues": "https://github.com/soundasleep/ue4-starter-architecture/issues"
+            },
+            "time": "2016-03-07 02:00:32"
+        },
+        {
+            "name": "soundasleep/ue4-starter-audio",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soundasleep/ue4-starter-audio.git",
+                "reference": "84c0b7d7825932f3e461800763335a7db56b71da"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soundasleep/ue4-starter-audio/zipball/84c0b7d7825932f3e461800763335a7db56b71da",
+                "reference": "84c0b7d7825932f3e461800763335a7db56b71da",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "dev-master"
+            },
+            "type": "ue4-content",
+            "description": "Unreal Engine 4 starter content",
+            "support": {
+                "source": "https://github.com/soundasleep/ue4-starter-audio/tree/master",
+                "issues": "https://github.com/soundasleep/ue4-starter-audio/issues"
+            },
+            "time": "2016-03-07 01:59:20"
+        },
+        {
+            "name": "soundasleep/ue4-starter-blueprints",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soundasleep/ue4-starter-blueprints.git",
+                "reference": "8ff8435d3d6eb7e2e49d2cb111172b33b5b67a09"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soundasleep/ue4-starter-blueprints/zipball/8ff8435d3d6eb7e2e49d2cb111172b33b5b67a09",
+                "reference": "8ff8435d3d6eb7e2e49d2cb111172b33b5b67a09",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "dev-master"
+            },
+            "type": "ue4-content",
+            "description": "Unreal Engine 4 starter content",
+            "support": {
+                "source": "https://github.com/soundasleep/ue4-starter-blueprints/tree/master",
+                "issues": "https://github.com/soundasleep/ue4-starter-blueprints/issues"
+            },
+            "time": "2016-03-07 02:01:20"
+        },
+        {
+            "name": "soundasleep/ue4-starter-content",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soundasleep/ue4-starter-content.git",
+                "reference": "e1c6ff91ca6c0e0d10c7d3d08b4491baf8f6175a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soundasleep/ue4-starter-content/zipball/e1c6ff91ca6c0e0d10c7d3d08b4491baf8f6175a",
+                "reference": "e1c6ff91ca6c0e0d10c7d3d08b4491baf8f6175a",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "dev-master",
+                "soundasleep/ue4-starter-architecture": "dev-master",
+                "soundasleep/ue4-starter-audio": "dev-master",
+                "soundasleep/ue4-starter-blueprints": "dev-master",
+                "soundasleep/ue4-starter-hrdi": "dev-master",
+                "soundasleep/ue4-starter-maps": "dev-master",
+                "soundasleep/ue4-starter-materials": "dev-master",
+                "soundasleep/ue4-starter-particles": "dev-master",
+                "soundasleep/ue4-starter-props": "dev-master",
+                "soundasleep/ue4-starter-shapes": "dev-master",
+                "soundasleep/ue4-starter-textures": "dev-master",
+                "soundasleep/ue4-starter-textures-brick": "dev-master",
+                "soundasleep/ue4-starter-textures-cobblestone": "dev-master",
+                "soundasleep/ue4-starter-textures-concrete": "dev-master",
+                "soundasleep/ue4-starter-textures-metal": "dev-master",
+                "soundasleep/ue4-starter-textures-rock": "dev-master",
+                "soundasleep/ue4-starter-textures-wood": "dev-master"
+            },
+            "type": "ue4-content",
+            "description": "Unreal Engine 4 starter content",
+            "support": {
                 "source": "https://github.com/soundasleep/ue4-starter-content/tree/master",
                 "issues": "https://github.com/soundasleep/ue4-starter-content/issues"
             },
-            "time": "2016-02-28 01:53:13"
+            "time": "2016-03-07 02:34:46"
+        },
+        {
+            "name": "soundasleep/ue4-starter-hrdi",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soundasleep/ue4-starter-hrdi.git",
+                "reference": "df2f678b3d2c07c8971f70d17303cb03201764c6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soundasleep/ue4-starter-hrdi/zipball/df2f678b3d2c07c8971f70d17303cb03201764c6",
+                "reference": "df2f678b3d2c07c8971f70d17303cb03201764c6",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "dev-master"
+            },
+            "type": "ue4-content",
+            "description": "Unreal Engine 4 starter content",
+            "support": {
+                "source": "https://github.com/soundasleep/ue4-starter-hrdi/tree/master",
+                "issues": "https://github.com/soundasleep/ue4-starter-hrdi/issues"
+            },
+            "time": "2016-03-07 02:46:08"
+        },
+        {
+            "name": "soundasleep/ue4-starter-maps",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soundasleep/ue4-starter-maps.git",
+                "reference": "4464aaad776854167aa37b54b0c8476491333c96"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soundasleep/ue4-starter-maps/zipball/4464aaad776854167aa37b54b0c8476491333c96",
+                "reference": "4464aaad776854167aa37b54b0c8476491333c96",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "dev-master"
+            },
+            "type": "ue4-content",
+            "description": "Unreal Engine 4 starter content",
+            "support": {
+                "source": "https://github.com/soundasleep/ue4-starter-maps/tree/master",
+                "issues": "https://github.com/soundasleep/ue4-starter-maps/issues"
+            },
+            "time": "2016-03-07 02:02:48"
+        },
+        {
+            "name": "soundasleep/ue4-starter-materials",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soundasleep/ue4-starter-materials.git",
+                "reference": "05012c1b7f7d9d86b5041a878a8f9f11b2d3e752"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soundasleep/ue4-starter-materials/zipball/05012c1b7f7d9d86b5041a878a8f9f11b2d3e752",
+                "reference": "05012c1b7f7d9d86b5041a878a8f9f11b2d3e752",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "dev-master"
+            },
+            "type": "ue4-content",
+            "description": "Unreal Engine 4 starter content",
+            "support": {
+                "source": "https://github.com/soundasleep/ue4-starter-materials/tree/master",
+                "issues": "https://github.com/soundasleep/ue4-starter-materials/issues"
+            },
+            "time": "2016-03-07 02:04:16"
+        },
+        {
+            "name": "soundasleep/ue4-starter-particles",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soundasleep/ue4-starter-particles.git",
+                "reference": "b5718d52aae943f1efcacfa39dad8a1d54d2202c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soundasleep/ue4-starter-particles/zipball/b5718d52aae943f1efcacfa39dad8a1d54d2202c",
+                "reference": "b5718d52aae943f1efcacfa39dad8a1d54d2202c",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "dev-master"
+            },
+            "type": "ue4-content",
+            "description": "Unreal Engine 4 starter content",
+            "support": {
+                "source": "https://github.com/soundasleep/ue4-starter-particles/tree/master",
+                "issues": "https://github.com/soundasleep/ue4-starter-particles/issues"
+            },
+            "time": "2016-03-07 02:05:34"
+        },
+        {
+            "name": "soundasleep/ue4-starter-props",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soundasleep/ue4-starter-props.git",
+                "reference": "43bdf5b2436343df03e46f55bea1a89adddd1206"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soundasleep/ue4-starter-props/zipball/43bdf5b2436343df03e46f55bea1a89adddd1206",
+                "reference": "43bdf5b2436343df03e46f55bea1a89adddd1206",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "dev-master"
+            },
+            "type": "ue4-content",
+            "description": "Unreal Engine 4 starter content",
+            "support": {
+                "source": "https://github.com/soundasleep/ue4-starter-props/tree/master",
+                "issues": "https://github.com/soundasleep/ue4-starter-props/issues"
+            },
+            "time": "2016-03-07 02:06:04"
+        },
+        {
+            "name": "soundasleep/ue4-starter-shapes",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soundasleep/ue4-starter-shapes.git",
+                "reference": "095b1dfb09a16ecce748115be831954a1cb3e0c2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soundasleep/ue4-starter-shapes/zipball/095b1dfb09a16ecce748115be831954a1cb3e0c2",
+                "reference": "095b1dfb09a16ecce748115be831954a1cb3e0c2",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "dev-master"
+            },
+            "type": "ue4-content",
+            "description": "Unreal Engine 4 starter content",
+            "support": {
+                "source": "https://github.com/soundasleep/ue4-starter-shapes/tree/master",
+                "issues": "https://github.com/soundasleep/ue4-starter-shapes/issues"
+            },
+            "time": "2016-03-07 02:07:00"
+        },
+        {
+            "name": "soundasleep/ue4-starter-textures",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soundasleep/ue4-starter-textures.git",
+                "reference": "04d3e6c68bcd9b85da28daae618da8eb34ef0090"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soundasleep/ue4-starter-textures/zipball/04d3e6c68bcd9b85da28daae618da8eb34ef0090",
+                "reference": "04d3e6c68bcd9b85da28daae618da8eb34ef0090",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "dev-master"
+            },
+            "type": "ue4-content",
+            "description": "Unreal Engine 4 starter content",
+            "support": {
+                "source": "https://github.com/soundasleep/ue4-starter-textures/tree/master",
+                "issues": "https://github.com/soundasleep/ue4-starter-textures/issues"
+            },
+            "time": "2016-03-07 02:11:21"
+        },
+        {
+            "name": "soundasleep/ue4-starter-textures-brick",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soundasleep/ue4-starter-textures-brick.git",
+                "reference": "d6da69a6ea24ff800faea0e6fe8299e6dccaa5a0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soundasleep/ue4-starter-textures-brick/zipball/d6da69a6ea24ff800faea0e6fe8299e6dccaa5a0",
+                "reference": "d6da69a6ea24ff800faea0e6fe8299e6dccaa5a0",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "dev-master"
+            },
+            "type": "ue4-content",
+            "description": "Unreal Engine 4 starter content",
+            "support": {
+                "source": "https://github.com/soundasleep/ue4-starter-textures-brick/tree/master",
+                "issues": "https://github.com/soundasleep/ue4-starter-textures-brick/issues"
+            },
+            "time": "2016-03-07 02:48:33"
+        },
+        {
+            "name": "soundasleep/ue4-starter-textures-cobblestone",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soundasleep/ue4-starter-textures-cobblestone.git",
+                "reference": "1aa26dd67e6ade924f449fe044beeaa7e7391754"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soundasleep/ue4-starter-textures-cobblestone/zipball/1aa26dd67e6ade924f449fe044beeaa7e7391754",
+                "reference": "1aa26dd67e6ade924f449fe044beeaa7e7391754",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "dev-master"
+            },
+            "type": "ue4-content",
+            "description": "Unreal Engine 4 starter content",
+            "support": {
+                "source": "https://github.com/soundasleep/ue4-starter-textures-cobblestone/tree/master",
+                "issues": "https://github.com/soundasleep/ue4-starter-textures-cobblestone/issues"
+            },
+            "time": "2016-03-07 02:48:49"
+        },
+        {
+            "name": "soundasleep/ue4-starter-textures-concrete",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soundasleep/ue4-starter-textures-concrete.git",
+                "reference": "647d95a9f5ddba95f57463f974445afdcd51908f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soundasleep/ue4-starter-textures-concrete/zipball/647d95a9f5ddba95f57463f974445afdcd51908f",
+                "reference": "647d95a9f5ddba95f57463f974445afdcd51908f",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "dev-master"
+            },
+            "type": "ue4-content",
+            "description": "Unreal Engine 4 starter content",
+            "support": {
+                "source": "https://github.com/soundasleep/ue4-starter-textures-concrete/tree/master",
+                "issues": "https://github.com/soundasleep/ue4-starter-textures-concrete/issues"
+            },
+            "time": "2016-03-07 02:49:15"
+        },
+        {
+            "name": "soundasleep/ue4-starter-textures-metal",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soundasleep/ue4-starter-textures-metal.git",
+                "reference": "dc4d9e8dc4a5a306f32c4a528828d7f5ace4daa5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soundasleep/ue4-starter-textures-metal/zipball/dc4d9e8dc4a5a306f32c4a528828d7f5ace4daa5",
+                "reference": "dc4d9e8dc4a5a306f32c4a528828d7f5ace4daa5",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "dev-master"
+            },
+            "type": "ue4-content",
+            "description": "Unreal Engine 4 starter content",
+            "support": {
+                "source": "https://github.com/soundasleep/ue4-starter-textures-metal/tree/master",
+                "issues": "https://github.com/soundasleep/ue4-starter-textures-metal/issues"
+            },
+            "time": "2016-03-07 02:49:54"
+        },
+        {
+            "name": "soundasleep/ue4-starter-textures-rock",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soundasleep/ue4-starter-textures-rock.git",
+                "reference": "4d9a926d2b44ebc5c9b8454edb3f0d11881b1ccf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soundasleep/ue4-starter-textures-rock/zipball/4d9a926d2b44ebc5c9b8454edb3f0d11881b1ccf",
+                "reference": "4d9a926d2b44ebc5c9b8454edb3f0d11881b1ccf",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "dev-master"
+            },
+            "type": "ue4-content",
+            "description": "Unreal Engine 4 starter content",
+            "support": {
+                "source": "https://github.com/soundasleep/ue4-starter-textures-rock/tree/master",
+                "issues": "https://github.com/soundasleep/ue4-starter-textures-rock/issues"
+            },
+            "time": "2016-03-07 02:50:16"
+        },
+        {
+            "name": "soundasleep/ue4-starter-textures-wood",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soundasleep/ue4-starter-textures-wood.git",
+                "reference": "c6da35defae3f7d5cf9f25ef2d4ad86629628300"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soundasleep/ue4-starter-textures-wood/zipball/c6da35defae3f7d5cf9f25ef2d4ad86629628300",
+                "reference": "c6da35defae3f7d5cf9f25ef2d4ad86629628300",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "dev-master"
+            },
+            "type": "ue4-content",
+            "description": "Unreal Engine 4 starter content",
+            "support": {
+                "source": "https://github.com/soundasleep/ue4-starter-textures-wood/tree/master",
+                "issues": "https://github.com/soundasleep/ue4-starter-textures-wood/issues"
+            },
+            "time": "2016-03-07 02:50:44"
         }
     ],
     "packages-dev": [],
