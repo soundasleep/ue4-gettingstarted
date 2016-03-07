@@ -12,7 +12,9 @@ composer
 ```
 
 It might take some time to download things, though.
-Just [StarterContent](https://github.com/soundasleep/ue4-starter-content) alone includes ~620 MB of content.
+Just [ue4-starter-content](https://github.com/soundasleep/ue4-starter-content) alone includes ~620 MB of content.
+
+(I've found that Composer runs out of memory downloading Git repositories larger than ~400 MB, so I've had to manually split [ue4-starter-content](https://github.com/soundasleep/ue4-starter-content) into smaller sub-dependencies.)
 
 ## License
 

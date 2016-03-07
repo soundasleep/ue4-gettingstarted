@@ -9,6 +9,70 @@
     {
       "type": "vcs",
       "url": "https://github.com/soundasleep/ue4-starter-content"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/soundasleep/ue4-starter-architecture"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/soundasleep/ue4-starter-audio"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/soundasleep/ue4-starter-blueprints"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/soundasleep/ue4-starter-hrdi"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/soundasleep/ue4-starter-maps"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/soundasleep/ue4-starter-materials"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/soundasleep/ue4-starter-particles"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/soundasleep/ue4-starter-props"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/soundasleep/ue4-starter-shapes"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/soundasleep/ue4-starter-textures"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/soundasleep/ue4-starter-textures-brick"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/soundasleep/ue4-starter-textures-cobblestone"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/soundasleep/ue4-starter-textures-concrete"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/soundasleep/ue4-starter-textures-metal"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/soundasleep/ue4-starter-textures-rock"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/soundasleep/ue4-starter-textures-wood"
     }
   ],
   "require": {
